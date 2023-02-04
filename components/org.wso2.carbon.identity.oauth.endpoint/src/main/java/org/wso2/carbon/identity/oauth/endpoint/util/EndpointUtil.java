@@ -731,7 +731,7 @@ public class EndpointUtil {
 
         String queryString = "";
         if (log.isDebugEnabled()) {
-            log.debug("Received Session Data Key is :  " + sessionDataKey);
+            log.debug("Received Session Data Key is: " + sessionDataKey);
             if (params == null) {
                 log.debug("Received OAuth2 params are Null for UserConsentURL");
             }
